@@ -6,7 +6,7 @@
 
 [T1146 - Clear Command History](./defense%20evasion/T1146/T1146.md)
 
-
+[T1107 - File Deletion](./defense%20evasion/T1107/T1107.md)
 
 
 # persistence
