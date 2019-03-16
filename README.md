@@ -3,7 +3,8 @@
 
 # defense evasion
 [T1009 - Binary Padding](./defense%20evasion/T1009/T1009.md)
-      
+
+[T1146 - Clear Command History](./defense%20evasion/T1146/T1146.md)
 
 
 
