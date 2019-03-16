@@ -1,6 +1,12 @@
 # Detecting ATT&amp;CK techniques &amp; tactics for Linux
 
 
+# defense evasion
+
+
+
+
+
 # persistence
 
 [T1156 .bash_profile and .bashrc](./Persistence/T1156/T1156.md)
@@ -12,3 +18,4 @@
 [T1166 - Setuid and Setgid](./Persistence/T1166/T1166.md)
 
 [T1154 - Trap](./Persistence/T1154/T1154.md)
+
