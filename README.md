@@ -10,3 +10,5 @@
 [T1168 - Local Job Scheduling](./Persistence/T1168/T1168.md)
 
 [T1166 - Setuid and Setgid](./Persistence/T1166/T1166.md)
+
+[T1154 - Trap](./Persistence/T1154/T1154.md)
