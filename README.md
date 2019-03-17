@@ -8,6 +8,8 @@
 
 [T1107 - File Deletion](./defense%20evasion/T1107/T1107.md)
 
+[T1222 - File Permissions Modification](./defense%20evasion/T1222/T1222.md)
+
 
 # persistence
 
