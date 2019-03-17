@@ -12,7 +12,7 @@
 
 [T1158 - Hidden Files and Directories](./Persistence/T1158/T1158.md)
 
-[T1148 - HISTCONTROL](./Persistence/T1148/T1148.md)
+[T1148 - HISTCONTROL](./defense%20evasion/T1148/T1148.md)
 
 # persistence
 
