@@ -21,7 +21,8 @@
 # Credential Access 
 
 [T1139 - Bash History](./credential%20access/T1139/T1139.md)
-      
+ 
+[T1081 - Credentials in Files](./credential%20access/T1081/T1081.md)
 
 # persistence
 
