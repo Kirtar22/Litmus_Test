@@ -14,6 +14,8 @@
 
 [T1148 - HISTCONTROL](./defense%20evasion/T1148/T1148.md)
 
+[T1070 - Indicator Removal on Host](./defense%20evasion/T1070/T1070.md)
+
 # persistence
 
 [T1156 .bash_profile and .bashrc](./Persistence/T1156/T1156.md)
