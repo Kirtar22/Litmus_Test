@@ -21,6 +21,8 @@
 # discovery
 
 [T1040 - Network Sniffing](./discovery/T1040/T1040.md)
+
+[T1087 - Account Discovery](./discovery/T1087/T1087.md)
       
 
 # Credential Access 
