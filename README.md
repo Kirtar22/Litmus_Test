@@ -28,6 +28,12 @@
 
 [T1169 - Sudo](./privilege%20escalation/T1169/T1169.md)
 
+[T1206 - Sudo Caching](./privilege%20escalation/T1206/T1206.md)
+
+[T1166 - Setuid and Setgid](./Persistence/T1166/T1166.md)
+
+[T1055 - Process Injection](./defense%20evasion/T1055/T1055.md)
+
 # Credential Access 
 
 [T1139 - Bash History](./credential%20access/T1139/T1139.md)
