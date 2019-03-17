@@ -10,6 +10,9 @@
 
 [T1222 - File Permissions Modification](./defense%20evasion/T1222/T1222.md)
 
+[T1158 - Hidden Files and Directories](./Persistence/T1158/T1158.md)
+
+[T1148 - HISTCONTROL](./Persistence/T1148/T1148.md)
 
 # persistence
 
