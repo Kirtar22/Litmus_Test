@@ -1,0 +1,34 @@
+## First rule - delete all
+-D
+
+## Increase the buffers to survive stress events.
+## Make this bigger for busy systems
+-b 8192
+
+## Set failure mode to syslog
+-f 1
+
+
+-w /etc/passwd -p wa -k passwdfile_changes
+-w /etc/shadow -p rwa -k shadowfile_changes
+-w /home/ec2-user/.bash_history -p rwa -k bash_history_changes
+-w /home/ec2-user/.bashrc  -p wa -k bashrc_changes
+-w /home/ec2-user/.bash_profile -p wa -k bashrc_changes
+-w /etc/ld.so.preload -p wa -k preload_lib
+-w /etc/sudoers -p wa -k sudoers_change
+#-a always,exit -F arch=b32 -S chmod,fchmod,fchmodat -F comm!=splunkd -F auid>=1000 -F auid!=4294967295 -F key=perm_mod
+-a always,exit -F arch=b64 -S chmod,fchmod,fchmodat -F auid>=1000 -F auid!=4294967295 -F key=perm_mod 
+-a always,exit -F arch=b32 -S lchown,fchown,chown,fchownat -F auid>=1000 -F auid!=4294967295 -F key=perm_mod
+-a always,exit -F arch=b64 -S chown,fchown,lchown,fchownat -F auid>=1000 -F auid!=4294967295 -F key=perm_mod
+-a always,exit -F arch=b32 -S setxattr,lsetxattr,fsetxattr,removexattr,lremovexattr,fremovexattr -F auid>=1000 -F auid!=4294967295 -F key=perm_mod
+-a always,exit -F arch=b64 -S setxattr,lsetxattr,fsetxattr,removexattr,lremovexattr,fremovexattr -F auid>=1000 -F auid!=4294967295 -F key=perm_mod
+-a always,exit -F arch=b64 -F PATH=/var/log -S unlinkat -F auid>=1000 -F auid!=4294967295 -F key=delete_logs
+-a always,exit -F arch=b64 -F PATH=/home/ec2-user/.bash_history -S unlinkat -F auid>=1000 -F auid!=4294967295 -F key=delete_bash_history
+-a always,exit -F arch=b64 -S unlinkat -F auid>=1000 -F auid!=4294967295 -F key=delete
+-a always,exit -F arch=b64 -S execve -S execveat -F auid>=1000 -F auid!=4294967295 -F key=program_execution
+-a exclude,never -F msgtype=USER_AUTH
+-a exclude,never -F msgtype=LOGIN
+-a exclude,never -F msgtype=CRYPTO_KEY_USER
+-a exclude,never -F msgtype=USER_LOGIN
+-a exclude,never -F msgtype=CRYPTO_SESSION
+
