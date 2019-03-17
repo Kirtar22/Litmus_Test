@@ -56,3 +56,11 @@
 
 [T1154 - Trap](./Persistence/T1154/T1154.md)
 
+# execution
+
+[T1064 - Scripting](./execution/T1064/T1064.md)
+
+[T1168 - Local Job Scheduling](./Persistence/T1168/T1168.md)
+
+
+
