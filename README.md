@@ -24,6 +24,8 @@
  
 [T1081 - Credentials in Files](./credential%20access/T1081/T1081.md)
 
+[T1145 - Private Keys](./credential%20access/T1145/T1145.md)
+
 # persistence
 
 [T1156 .bash_profile and .bashrc](./Persistence/T1156/T1156.md)
