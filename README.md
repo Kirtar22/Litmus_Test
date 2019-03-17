@@ -23,7 +23,10 @@
 [T1040 - Network Sniffing](./discovery/T1040/T1040.md)
 
 [T1087 - Account Discovery](./discovery/T1087/T1087.md)
-      
+
+# privilege escalation 
+
+[T1169 - Sudo](./privilege%20escalation/T1169/T1169.md)
 
 # Credential Access 
 
